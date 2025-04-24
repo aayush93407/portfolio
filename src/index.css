@@ -1,13 +1,158 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #1f2937;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+section {
+  padding: 100px 20px;
+  max-width: 1100px;
+  margin: 80px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #0f172a;
+}
+
+ul li, p {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.cursor {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.ripple {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: scale(0);
+  animation: rippleEffect 0.6s linear;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+.ripple {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: scale(0);
+  animation: rippleEffect 0.6s linear;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+/* Global Light Mode Styles */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #f8f9fa;
+  color: #2563eb;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Dark Navbar Styles */
+body.dark-mode .navbar {
+  background-color: #333;
+  color: #ffa500;
+}
+
+body.dark-mode .navbar a {
+  color: #ffa500;
+}
+
+/* Other Dark Mode Styles */
+body.dark-mode h2 {
+  color: #ffa500;
+}
+
+body.dark-mode p, body.dark-mode ul {
+  color: #ccc;
+}
+
+body.dark-mode .ripple {
+  background-color: #ffa500; /* Dark mode ripple */
+}
+
+body.dark-mode .section {
+  background-color: #444; /* Dark section background */
 }
