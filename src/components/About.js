@@ -51,7 +51,7 @@ const About = () => (
           transition={{ duration: 0.6 }}
           style={{ fontSize: "1.1rem", lineHeight: "1.7" }}
         >
-          I’m Aayush Kumar, currently pursuing B.E. in Artificial Intelligence and Data Science at CMRIT, Bengaluru.
+          I am Aayush Kumar, currently pursuing B.E. in Artificial Intelligence and Data Science at CMRIT, Bengaluru.
           I’m deeply passionate about building scalable tech and intelligent systems that solve real-world problems.
           In my free time, I enjoy playing chess, badminton, and exploring emerging technologies.
         </motion.p>
