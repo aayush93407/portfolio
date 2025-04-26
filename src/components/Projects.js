@@ -18,13 +18,13 @@ const projects = [
     title: "Insurance fraud detection",
     image: "/images/insurance.png",
     description: "Developed an advanced fraud detection system that identifies fraudulent claims across three major insurance sectors: Health Insurance, Vehicle Insurance, and Cyber Insurance.",
-    github: "https://github.com/aayush93407/insurance_fraud"
+    github: "https://front-end-chi-lemon.vercel.app/"
   },
   {
     title: "Resource Sharing Platform",
     image: "/images/resource.png",
     description: "Developed an AI-driven platform that automates skill extraction, project matching, talent recommendation, and lost item recovery using Generative AI and ML. Implemented NLP models to extract skills from LinkedIn and resumes, computer vision for lost item identification, and NLG for automated documentation.",
-    github: "https://github.com/aayush93407/resource_sharing"
+    github: "https://first-page-latest.vercel.app/"
   }
 ];
 
@@ -73,7 +73,7 @@ const Projects = () => (
             <p style={{ fontSize: "1.1rem", marginBottom: "10px" }}>{project.description}</p>
             <a href={project.github} target="_blank" rel="noreferrer">
               <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                View on GitHub
+                View Project
               </motion.button>
             </a>
           </div>
