@@ -25,6 +25,12 @@ const projects = [
     image: "/images/resource.png",
     description: "Developed an AI-driven platform that automates skill extraction, project matching, talent recommendation, and lost item recovery using Generative AI and ML. Implemented NLP models to extract skills from LinkedIn and resumes, computer vision for lost item identification, and NLG for automated documentation.",
     github: "https://first-page-latest.vercel.app/"
+  },
+  {
+    title: "Digital Restaurant Ordering System",
+    image: "/images/menu.png",
+    description: "This innovative restaurant ordering system uses facial recognition (DeepFace) and hand gestures (MediaPipe) for a completely contactless dining experience. Users can navigate the menu, place orders, and confirm with simple gestures—no touchscreens or waiters needed. The system automatically logs the order, generates a PDF bill with a QR code, and emails it instantly. Built with Python using OpenCV, Pygame, and FPDF, it’s smart, hygienic, and fun—bringing the future of dining to your fingertips.",
+    github: "https://www.linkedin.com/posts/aayush-kumar-6b5191263_ai-gesturerecognition-computervision-activity-7324506632111951872-uCwI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAECh36kBA2ZkoMc2jFbvc3uNV7QPsKVpCPY"
   }
 ];
 
