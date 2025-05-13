@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Smart Battery Management App",
-    image: "/images/react.jpeg",
+    image: "/images/react.png",
     description: "Developed a Smart Battery Management Mobile Application using React Native, designed to help users monitor their device's battery health, performance, and manage support tickets effectively. The app features a secure authentication system, real-time battery condition display, and an easy-to-use ticket submission page for reporting battery-related issues.",
     github: "https://appetize.io/app/b_mlgz4mi6wnw2ysbr25kr4qs6vi"
     
