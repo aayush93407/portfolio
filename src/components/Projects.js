@@ -15,6 +15,13 @@ const projects = [
     github: "https://github.com/aayush93407/interview_prep"
   },
   {
+    title: "Smart Battery Management App",
+    image: "/images/react.jpeg",
+    description: "Developed a Smart Battery Management Mobile Application using React Native, designed to help users monitor their device's battery health, performance, and manage support tickets effectively. The app features a secure authentication system, real-time battery condition display, and an easy-to-use ticket submission page for reporting battery-related issues.",
+    github: "https://appetize.io/app/b_mlgz4mi6wnw2ysbr25kr4qs6vi"
+    
+  },
+  {
     title: "Insurance fraud detection",
     image: "/images/insurance.png",
     description: "Developed an advanced fraud detection system that identifies fraudulent claims across three major insurance sectors: Health Insurance, Vehicle Insurance, and Cyber Insurance.",
