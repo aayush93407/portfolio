@@ -5,7 +5,7 @@ const educationData = [
   {
     degree: "B.E. in AI & Data Science",
     place: "CMR Institute of Technology, Bengaluru",
-    result: "CGPA: 9.03 (Pursuing)",
+    result: "CGPA: 9.15",
     year: "2021 - 2025"
   },
   {
