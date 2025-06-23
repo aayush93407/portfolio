@@ -6,7 +6,7 @@ const highlights = [
   "👨‍💻 React Native Developer Intern at Auxplutes Tech",
   "🤖 Machine Learning Intern at EBTS Org",
   "💻 Skilled in Full-Stack Dev and Machine Learning",
-  "📚 CGPA of 9.03 (till 7th semester) with strong academic record",
+  "📚 CGPA of 9.15 with strong academic record",
   "🚀 GenAI enthusiast – worked with Mistral & custom LLMs"
 ];
 
