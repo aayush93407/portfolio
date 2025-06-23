@@ -79,7 +79,7 @@ const Contact = () => (
     </motion.p>
 
     <motion.a
-      href="/college_resume.pdf"  // Ensure that the file is available at this location
+      href="/Aayush-Kumar-Resume.pdf"  
       download
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
