@@ -12,7 +12,7 @@ const educationData = [
     degree: "12th Grade (Science)",
     place: "Central Academy, Kota, Rajasthan",
     result: "79.6%",
-    year: "2019 - 2021"
+    year: "2020 - 2021"
   },
   {
     degree: "10th Grade",
