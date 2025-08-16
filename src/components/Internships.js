@@ -72,11 +72,12 @@ const Internships = () => (
     <div
       style={{
         display: "flex",
-        flexWrap: "wrap",
+        flexWrap: "nowrap",
         gap: "30px",
         justifyContent: "center",
         alignItems: "flex-start",
-        width: "100%"
+        width: "100%",
+        overflowX: "auto"
       }}
     >
       {internships.map((intern, index) => (
@@ -87,8 +88,8 @@ const Internships = () => (
           transition={{ duration: 0.8, delay: index * 0.3 }}
           whileHover={{ scale: 1.03 }}
           style={{
-            flex: "1 1 300px", // responsive width so 3rd card doesn't get cut
-            maxWidth: "320px",
+            width: "320px",    // fixed width so all cards same size
+            flexShrink: 0,     // prevent shrinking
             backgroundColor: "rgba(255, 255, 255, 0.6)",
             padding: "25px",
             borderRadius: "15px",
