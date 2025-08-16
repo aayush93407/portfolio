@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const titles = [
   "AI Engineer",
+  "Software Engineer",
   "React-Native Developer",
   "SIH 2024 Finalist",
   "Web Developer",
