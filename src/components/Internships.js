@@ -88,7 +88,7 @@ const Internships = () => (
           transition={{ duration: 0.8, delay: index * 0.3 }}
           whileHover={{ scale: 1.03 }}
           style={{
-            width: "300px",    // fixed width so all cards same size
+            width: "295px",    // fixed width so all cards same size
             flexShrink: 0,     // prevent shrinking
             backgroundColor: "rgba(255, 255, 255, 0.6)",
             padding: "25px",
