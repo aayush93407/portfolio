@@ -4,9 +4,21 @@ import { motion } from "framer-motion";
 // Internship data
 const internships = [
   {
+    company: "Sagility Healthcare",
+    role: "Associate Software Engineer",
+    duration: "July 2025 - Present",
+    responsibilities: [
+      "Designing and developing a Generative AI product leveraging NLP to evaluate and monitor agent performance.",
+      "Improved evaluation accuracy by 30% through fine-tuning language models and optimizing pipelines.",
+      "Automated performance insights generation, enabling 25% faster decision-making for managers.",
+      "Integrated scalable workflows and APIs, enhancing system efficiency and reducing manual analysis by 40%."
+    ],
+    animation: { x: -100 }
+  },
+  {
     company: "AuxPlutes Tech",
     role: "AI Engineer Intern",
-    duration: "Oct 2024 – Jan 2025",
+    duration: "Oct 2024 – Mar 2025",
     responsibilities: [
       "Developing responsive and dynamic user app using React native. ",
       "Integrated AI/ML models for smart automation.",
