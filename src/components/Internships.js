@@ -65,7 +65,7 @@ const Internships = () => (
       transition={{ duration: 0.6 }}
       style={{ textAlign: "center", color: "#0e86d4", marginBottom: "30px" }}
     >
-      Internships
+      Experience
     </motion.h2>
 
     <div style={{ display: "flex", flexWrap: "wrap", gap: "30px", justifyContent: "center" }}>
