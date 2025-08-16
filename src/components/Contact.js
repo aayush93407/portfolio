@@ -39,7 +39,7 @@ const Contact = () => (
       style={{ fontSize: "1.1rem", color: "#374151", marginBottom: "10px" }}
       whileHover={{ color: "#2563eb", scale: 1.05, textDecoration: "underline" }}
     >
-      Email: <a href="mailto:aaku21ainds@cmrit.ac.in" style={linkStyle}>aayushkumar93407@gmail.com</a>
+      Email: <a href="mailto:aayushkumar93407@gmail.com" style={linkStyle}>aayushkumar93407@gmail.com</a>
     </motion.p>
 
     <motion.p
@@ -79,7 +79,7 @@ const Contact = () => (
     </motion.p>
 
     <motion.a
-      href="/Aayush-Kumar-Resume.pdf"  
+      href="/Aayush_Resume_Latest.pdf"  
       download
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
